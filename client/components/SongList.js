@@ -12,7 +12,7 @@ class SongList extends Component {
             variables: {
                 id
             }
-        }).then( () => this.props.data.refetch());
+        }).then( () => this.props.data.refetch() );
     }
 
     renderSongs() {
